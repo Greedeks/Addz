@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Appz</title>
+    <link rel="stylesheet" href="css/index.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.css" >
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sen&display=swap" rel="stylesheet">
+    </head>
+<body>	
+        <!--Head-->
+    <header>
+        <img src="image/head.png" class="head-image" alt="Responsive image">
+        <img src="image/hand.png" class="head-hand" alt="Responsive image">
+        <h1 class="head-h">Appz</h1>
+        <h1 class="head-h2">Appz</h1>
+        <h1 class="head-text">The amazing template to show off<br>  your new iPhone App!</h1>
+        <button type="button" class="btn-d">Download</button>
+        <img id="phoneI" src="image/h1.png" class="head-phone-image" alt="Responsive image">
+    </header>
+        
+        <!--Тело-->
+<content>
+    <div class="slider">
+        <img id="left" class="arrow" src="image/left.png" onClick="if(count>1) slider(count-=1);">
+        <img id="right" class="arrow" src="image/right-a.png" style="left:1262px;" onClick="if(count<4) slider(count+=1);">
+        
+        <div class="slider-i">
+            <img id="i1" src="image/s1.png" class="slider-image">
+            <img src="image/overlay.png" class="overlay" width="190px;" height="105px" style="display: none;" id="over1">
+            <h1 id="stH1" class="slider-textH" style="color:black"><b>Appz</b> Theme</h1>
+            <div id="s1" class=line style="background:#ff007e;"></div>
+            <h1 id="st1" class="slider-text" style="color:#5f5f5f;">Lorem ipsum dolor sit amet,<br> omnis euismod indoctum mel.</h1>
+        </div>
+        
+        <div class="slider-i" style="left:412px;">
+            <img id="i2" src="image/s2.jpg" class="slider-image">
+            <img src="image/overlay.png" class="overlay" width="190px;" height="105px" id="over2">
+            <h1 id="stH2" class="slider-textH"><b>Easy To</b> Use</h1>
+            <div id="s2" class=line></div>
+            <h1 id="st2" class="slider-text">Lorem ipsum dolor sit amet,<br> omnis euismod indoctum mel.</h1>
+        </div>
+        
+        <div class="slider-i" style="left:727px;">
+            <img id="i3" src="image/s3.jpg" class="slider-image">
+            <img src="image/overlay.png" class="overlay" width="190px;" height="105px" id="over3">
+            <h1 id="stH3" class="slider-textH"><b>Amazing</b> Design</h1>
+            <div id="s3" class=line></div>
+            <h1 id="st3" class="slider-text">Lorem ipsum dolor sit amet,<br> omnis euismod indoctum mel.</h1>
+        </div>
+        
+        <div class="slider-i" style="left:1042px;">
+            <img id="i4" src="image/s4.jpg" class="slider-image">
+            <img src="image/overlay.png" class="overlay" width="190px;" height="105px" id="over4">
+            <h1 id="stH4" class="slider-textH"><b>Dashboard</b> View</h1>
+            <div id="s4" class=line></div>
+            <h1 id="st4" class="slider-text">Lorem ipsum dolor sit amet,<br> omnis euismod indoctum mel.</h1>
+        </div>
+    </div>
+    
+    <div class="adv-c">
+        <h1 class="adv-text">Get your <b>free</b> &nbsp;&nbsp;<button type="button" class="btn-d adv-button">Download</button>&nbsp;&nbsp; of<p class="adv-text2">Appz</p></h1> <h1 class="adv-text" style="top:-65px; left:580px;">today!</h1>
+    </div>
+    
+    <div class="info">
+        <div class="info-left"> 
+            <div class="info-box-text">
+                <h1 class="info-text-head"><b>Clean.</b> Minimalistic Design.</h1>
+                <p class="info-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris interdum velit vitae nulla molestie eu commodo nulla dapibus. Donec id sollicitudin urna. Integer at dui ac leo fermentum varius eleifend ut libero. Mauris interdum velit vitae nulla molestie eu commodo nulla dapibus.</p>
+            </div>
+
+            <div class="info-box-text">
+                <h1 class="info-text-head"><b>Simple.</b> So Easy To Use.</h1>
+                <p class="info-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris interdum velit vitae nulla molestie eu commodo nulla dapibus. Donec id sollicitudin urna. Integer at dui ac leo fermentum varius eleifend ut libero. Mauris interdum velit vitae nulla molestie eu commodo nulla dapibus.</p>
+            </div>
+            
+            <div class="info-box-text">
+                <h1 class="info-text-head"><b>Slider.</b> View All Your Photos.</h1>
+                <p class="info-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris interdum velit vitae nulla molestie eu commodo nulla dapibus. Donec id sollicitudin urna. Integer at dui ac leo fermentum varius eleifend ut libero. Mauris interdum velit vitae nulla molestie eu commodo nulla dapibus.</p>
+            </div>
+            
+            <div class="info-box-text">
+                <h1 class="info-text-head"><b>Dashboard.</b> See Whats Going On.</h1>
+                <p class="info-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris interdum velit vitae nulla molestie eu commodo nulla dapibus. Donec id sollicitudin urna. Integer at dui ac leo fermentum varius eleifend ut libero. Mauris interdum velit vitae nulla molestie eu commodo nulla dapibus.</p>
+            </div>
+        </div>
+        <div class="line-f"></div>
+        <div class="info-right"> 
+            <img class="phone" src="image/wphone.png" height="780px">
+            <img class="phone" src="image/bphone.png" height="780px" style="margin-left:100px;">
+        </div>
+    </div>
+</content>
+            <!--Конец-->
+        <div class="line-foot"></div>
+            <h1 class="text-foot">© 2012  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;. All Rights Reserved.</h1>
+            <p class="text-foot1">Appz</p>
+            <h1 class="text-foot" style="margin-left: 1300px;">Theme Created By</h1>
+            <p class="text-foot1" style="margin-left: 1435px;">Best PSD Freebies</p>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>   
+<script type="text/javascript">
+    
+var left=document.getElementById("left");
+var right=document.getElementById("right");   
+
+var s1=document.getElementById("s1");
+var s2=document.getElementById("s2");
+var s3=document.getElementById("s3");
+var s4=document.getElementById("s4");
+
+var o1=document.getElementById("over1");
+var o2=document.getElementById("over2");
+var o3=document.getElementById("over3");
+var o4=document.getElementById("over4");
+
+var sh1=document.getElementById("stH1");
+var sh2=document.getElementById("stH2");
+var sh3=document.getElementById("stH3");
+var sh4=document.getElementById("stH4");
+
+var st1=document.getElementById("st1");
+var st2=document.getElementById("st2");
+var st3=document.getElementById("st3");
+var st4=document.getElementById("st4");
+    
+var pimage=document.getElementById("phoneI");
+var count=1;
+    
+function slider(count){
+    
+    console.log(count);
+    switch(count){
+        case 1:
+          o1.style.display="none";
+          left.src = "image/left.png";
+          right.src= "image/right-a.png";
+          pimage.src="image/h1.png";
+          animImage();
+          s1.style.background="#ff007e";
+          sh1.style.color="black";
+          st1.style.color="#5f5f5f";
+
+          o2.style.display="inline";
+          s2.style.background="#c6c6c6";
+          sh2.style.color="#c6c6c6";
+          st2.style.color="#8e8e8e";
+
+          o3.style.display="inline";
+          s3.style.background="#c6c6c6";
+          sh3.style.color="#c6c6c6";
+          st3.style.color="#8e8e8e";
+
+          o4.style.display="inline";
+          s4.style.background="#c6c6c6";
+          sh4.style.color="#c6c6c6";
+          st4.style.color="#8e8e8e";
+        break;
+        
+        case 2:
+          o2.style.display="none";
+          left.src = "image/left-a.png";
+          right.src= "image/right-a.png";
+          pimage.src="image/h2.jpg";
+          animImage();
+          s2.style.background="#ff007e";
+          sh2.style.color="black";
+          st2.style.color="#5f5f5f";
+
+          o1.style.display="inline";
+          s1.style.background="#c6c6c6";
+          sh1.style.color="#c6c6c6";
+          st1.style.color="#8e8e8e";
+
+          o3.style.display="inline";
+          s3.style.background="#c6c6c6";
+          sh3.style.color="#c6c6c6";
+          st3.style.color="#8e8e8e";
+
+          o4.style.display="inline";
+          s4.style.background="#c6c6c6";
+          sh4.style.color="#c6c6c6";
+          st4.style.color="#8e8e8e";
+        break;
+    
+        case 3:
+          o3.style.display="none";
+          left.src = "image/left-a.png";
+          right.src= "image/right-a.png";
+          pimage.src="image/h3.jpg";
+          animImage();
+          s3.style.background="#ff007e";
+          sh3.style.color="black";
+          st3.style.color="#5f5f5f";
+
+          o2.style.display="inline";
+          s2.style.background="#c6c6c6";
+          sh2.style.color="#c6c6c6";
+          st2.style.color="#8e8e8e";
+
+          o1.style.display="inline";
+          s1.style.background="#c6c6c6";
+          sh1.style.color="#c6c6c6";
+          st1.style.color="#8e8e8e";
+
+          o4.style.display="inline";
+          s4.style.background="#c6c6c6";
+          sh4.style.color="#c6c6c6";
+          st4.style.color="#8e8e8e";
+        break;
+        
+        case 4:
+          o4.style.display="none";
+          left.src = "image/left-a.png";
+          right.src= "image/right.png";
+          pimage.src="image/h4.jpg";
+          animImage();
+          s4.style.background="#ff007e";
+          sh4.style.color="black";
+          st4.style.color="#5f5f5f";
+
+          o2.style.display="inline";
+          s2.style.background="#c6c6c6";
+          sh2.style.color="#c6c6c6";
+          st2.style.color="#8e8e8e";
+
+          o3.style.display="inline";
+          s3.style.background="#c6c6c6";
+          sh3.style.color="#c6c6c6";
+          st3.style.color="#8e8e8e";
+
+          o1.style.display="inline";
+          s1.style.background="#c6c6c6";
+          sh1.style.color="#c6c6c6";
+          st1.style.color="#8e8e8e"; 
+        break;
+    }
+    
+function animImage(){
+              document.getElementById("phoneI").animate([
+              // keyframes
+              { opacity: '0%' },
+              { transform: '100%' }
+            ], {
+              // timing options
+              duration: 700,
+              iterations: 1
+            })
+}
+}
+</script> 
+<script src="js/bootstrap.js"></script>     
+</body>
+</html>
